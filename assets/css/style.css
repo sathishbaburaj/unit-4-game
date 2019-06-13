@@ -1,0 +1,62 @@
+#title{
+    width:20%;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+    background-color: brown;
+
+}
+
+#rules{
+    width:40%;
+    background-color: darksalmon;
+    margin: 20px 10px 10px 10px;
+    padding: 10px 0px;
+    color: green;
+}
+#random-score{
+    width:20%;
+    background-color:green;
+    height: 50px;
+    margin: 5px 10px;
+    padding: 10px 0px;
+    float: left;
+
+}
+#counter{
+    background-color: aqua;
+    float:left;
+    width: 10%;
+    margin: 5px 5px;
+    padding: 10px 0px;
+    height: 50px;
+    
+
+}
+/* #empty{
+    width:65%;
+    height: 70px;
+    float: left;
+    margin: 5px 10px;
+    padding: 10px 0px;
+} */
+.column{
+    clear: left;
+}
+
+
+  img{
+      width:100px;
+      height:100px;
+      float: left;
+      display: block;
+      margin: 5px 10px;
+    padding: 10px 0px;
+border-image: 2px;    
+  }
+
+
+
