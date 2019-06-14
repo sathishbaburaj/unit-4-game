@@ -1,3 +1,7 @@
+body {
+    background-image: url('../images/img_lights.jpg');
+}
+
 #title{
     width:20%;
     text-align: center;
@@ -36,26 +40,39 @@
     
 
 }
-/* #empty{
-    width:65%;
-    height: 70px;
-    float: left;
+
+
+
+
+.crystal-image {
+    width:100px;
+    height:100px;
+    border: 1px royalblue solid;
+      
+}
+#crystals{
+    width:35%;
+    clear: left;
     margin: 5px 10px;
     padding: 10px 0px;
-} */
-.column{
-    clear: left;
+
 }
+#text-holder{
+    background-color: aqua;
+    width:15%;
 
-
-  img{
-      width:100px;
-      height:100px;
-      float: left;
-      display: block;
       margin: 5px 10px;
-    padding: 10px 0px;
-border-image: 2px;    
+      padding: 10px 0px;
+
+}
+  
+  #total-score{
+      width:15%;
+      height: 50px;
+      background-color: aqua;
+      margin: 5px 10px;
+      padding: 10px 0px;
+
   }
 
 

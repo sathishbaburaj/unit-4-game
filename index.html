@@ -8,6 +8,7 @@
     <title>Crystal Collector game</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
 
 </head>
 
@@ -26,22 +27,25 @@
         <br />
         <p>Each time when the game starts,the game will change the values of each crystal.</p>
     </div>
-    <div id="random-score">#place-holder</div>
+    <div id="random-score"></div>
     <div id="counter">
-        <p id="wins">Wins:</p>
+        <p id="numberWins"></p>
         <br />
-        <p id="losses">Losses:</p>
+        <p id="numberLosses"></p>
     </div>
-    <!-- <div id="empty"></div> -->
+    
 
-    <div class="column">
-                    <img src="assets/images/diamond.jpg" alt="diamond-image">
-                    <img src="assets/images/hexagonal.jpg" alt="hexagonal-image">
-                    <img src="assets/images/octahedral.jpg" alt="octahedral-image">
-                    <img src="assets/images/pinfire-opal.jpg" alt="pinfire-image">
-          
+    <div id="crystals">
+
+            <img class="crystal-image crystal-image1"  src="assets/images/diamond.jpg" alt="crystal1"      >
+            <img class="crystal-image crystal-image2"  src="assets/images/hexagonal.jpg" alt="crystal2"    >
+            <img class="crystal-image crystal-image3"  src="assets/images/octahedral.jpg" alt="crystal3"   >
+            <img class="crystal-image crystal-image4"  src="assets/images/pinfire-opal.jpg" alt="crystal4" >
+
+                              
           </div>
-            
+     <div id="text-holder">Your total score is:</div>  
+     <div id="total-score"></div>   
         
 
     
@@ -56,9 +60,9 @@
 
 
 
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script>
-    </script>
+     <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
